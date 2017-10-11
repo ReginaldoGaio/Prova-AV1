@@ -1,0 +1,81 @@
+Aluno: Reginaldo Gaio
+Prova de Laboratorio de Sistemas Operacionais
+Professor: Alex Salgado
+2o. Semestre de 2017   Turno: Noite            AV1
+--------------------------------------------------
+Com relação aos comandos do SO Linux, responda as perguntas abaixo:
+
+1 - Usando uma combinação dos comandos cat, tail e/ou head, crie uma linha de comando linux para exibir as linhas 100 a 110 do 
+arquivo log/access.log
+Resposta (Qual comando você utilizou?): cat access.log | head -100 | tail -110
+
+
+
+2 - Renomear o arquivo prova1-2017.txt da sua pasta para prova1-seunome.txt . 
+Ex.: prova1-alex.txt
+Resposta (Qual comando você utilizou?): mv prova1-2017.txt prova1-reginaldo.txt
+
+
+
+3 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
+sequencia 1, 2 e 3. 
+Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
+Resposta: touch reginaldo{1..3}.txt
+
+
+
+4 - Listar todos os arquivos vazios a partir da sua pasta principal e 
+direcionar a saida para o terceiro arquivo do item anterior.
+Resposta (Qual comando utilizou?): find /home/reginaldo/Prova-AV1/ -empty -type f > reginaldo3.txt 
+
+
+
+5 - Crie 1 pasta com seu nome+diadenascimento (ex.:alex25) e copie os 
+3 arquivos criandos anteriormente para esta pasta.
+Resposta (Qual comando utilizou?): mkdir reginaldo01
+cp reginaldo{1..3}.txt /home/reginaldo/Prova-AV1/prova-labso-2017.2/prova1-noite/reginaldo01/
+
+
+
+
+
+6 - Utilizando wildcards, qual o comando para listar todos os arquivos 
+que comecem com seu nome e termina com o numeral de 1 a 3 com extensão .txt?
+Resposta: find prova1-noite/ -name reginaldo*.txt -print
+
+
+
+
+7 - Existe um arquivo chamado access.log na sua pasta log. 
+Qual é o ip que aparece no arquivo com mais frequencia e 
+qual ip que aparece no arquivo com menos frequencia?
+Resposta 1 : grep "200.19.168.148" access.log
+Resposta 2 (qual comando você utilizou? ): grep "200.19.168.148" access.log*
+
+
+
+
+8 - Qual o comando linux para mostrar todos os arquivos vazios da pasta atual?
+Resposta: find /home/reginaldo/Prova-AV1/ -empty -type f
+
+
+
+9 - Com relação ao arquivo grepdata.txt na pasta log: 
+Imprima todas as linhas que contenham um numero de telefone no formato 999-999-9999 
+Resposta (comando utilizado): grep "999-999-9999" access.log*
+
+
+
+10 - Listar todo o conteudo (todos os arquivos e pastas)
+a partir de sua pasta principal e direcionar a saida 
+para o segundo arquivo do item 3.
+Resposta (comando utilizado): ls -R > reginaldo2.txt
+
+
+
+********************************************************************
+
+Envio da Prova - Preencher a prova e este formulario com seus dados 
+de envio: https://goo.gl/forms/sqrMM3wYS7ZYCYFC3
+
+********************************************************************

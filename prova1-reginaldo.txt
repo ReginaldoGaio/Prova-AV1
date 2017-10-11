@@ -1,0 +1,78 @@
+Aluno: Vinicius Caldas Gomes Gagliano
+Prova de Laboratorio de Sistemas Operacionais
+Professor: Alex Salgado
+1o. Semestre de 2017   Turno: Noite            AV1
+--------------------------------------------------
+Com relação aos comandos do SO Linux, responda as perguntas abaixo:
+
+1 - Usando uma combinação dos comandos cat, tail e/ou head, crie uma linha de comando linux para exibir as linhas 100 a 110 do arquivo log/access.log
+Resposta (Qual comando você utilizou?): 
+
+
+
+2 - Renomear o arquivo prova1-2017.txt da sua pasta para prova1-seunome.txt . 
+Ex.: prova1-alex.txt
+Resposta (Qual comando você utilizou?): 
+
+
+
+3 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
+sequencia 1, 2 e 3. 
+Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
+Resposta: 
+
+
+
+4 - Listar todos os arquivos vazios a partir da sua pasta principal e 
+direcionar a saida para o terceiro arquivo do item anterior.
+Resposta (Qual comando utilizou?): 
+
+
+
+5 - Crie 1 pasta com seu nome+diadenascimento (ex.:alex25) e copie os 
+3 arquivos criandos anteriormente para esta pasta.
+Resposta (Qual comando utilizou?): 
+
+
+
+
+6 - Utilizando wildcards, qual o comando para listar todos os arquivos 
+que comecem com seu nome e termina com o numeral de 1 a 3 com extensão .txt?
+Resposta: 
+
+
+
+
+7 - Existe um arquivo chamado access.log na sua pasta log. 
+Qual é o ip que aparece no arquivo com mais frequencia e 
+qual ip que aparece no arquivo com menos frequencia?
+Resposta 1 :  
+Resposta 2 (qual comando você utilizou? ):
+
+
+
+
+8 - Qual o comando linux para mostrar todos os arquivos vazios da pasta atual?
+Resposta: 
+
+
+
+9 - Com relação ao arquivo grepdata.txt na pasta log: 
+Imprima todas as linhas que contenham um numero de telefone no formato 999-999-9999 
+Resposta (comando utilizado): 
+
+
+
+10 - Listar todo o conteudo (todos os arquivos e pastas)
+a partir de sua pasta principal e direcionar a saida 
+para o segundo arquivo do item 3.
+Resposta (comando utilizado): 
+
+
+
+********************************************************************
+
+Envio da Prova - Preencher a prova e este formulario com seus dados 
+de envio: https://goo.gl/forms/sqrMM3wYS7ZYCYFC3
+
+********************************************************************
